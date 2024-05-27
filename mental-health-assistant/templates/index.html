@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistente de Saúde Mental</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Assistente de Saúde Mental</h1>
+        <div class="form-group">
+            <textarea class="form-control" id="text-input" rows="3" placeholder="Digite seu texto aqui..."></textarea>
+        </div>
+        <button id="analyze-btn" class="btn btn-primary">Analisar Sentimento</button>
+        <div id="result" class="mt-4"></div>
+        <div id="entries" class="mt-4"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</body>
+</html>

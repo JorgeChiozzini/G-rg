@@ -1,0 +1,11 @@
+body {
+    padding-top: 50px;
+}
+
+#result p, #entries div {
+    font-size: 1.2em;
+}
+
+#entries h3 {
+    margin-top: 30px;
+}
