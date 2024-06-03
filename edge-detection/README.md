@@ -23,6 +23,3 @@ O filtro de Sobel é uma técnica usada em processamento de imagens para detecta
 3. **Normalização**:
    - A magnitude do gradiente é normalizada para o intervalo de 0 a 255 para ser exibida como uma imagem de bordas.
 
-### Resumo
-
-Neste projeto, você aprendeu a usar GitHub Codespaces para configurar um ambiente de desenvolvimento e implementar um sistema de detecção de bordas usando o filtro de Sobel. Este projeto é uma introdução prática à visão computacional, permitindo que qualquer pessoa, mesmo sem experiência prévia, possa explorar técnicas de processamento de imagens.
